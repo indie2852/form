@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  box-sizing:border-box;
+ font-family: 'Chivo Mono', monospace;
+}
+section{
+  height:1000px;
+  width:100%;
+}
+.contactBox{
+  height:300px;
+  width:300px;
+  border:2px solid black;
+  border-radius: 25px;
+margin-top:100px;
+  margin-left:100px;
+}
+p{
+padding:10px;
+color:black;
+font-size:35px;
+text-align: center;
+}
+
+.contain{
+  text-align:center;
+}
+.myButton{
+  width:200px;
+  height:35px;
+   border-radius:10px;
+  background-color: darkgray;
+  text-align:center;
+  margin-top:40px;
+  margin-left:45px;
+}
+.submitText{
+  font-size:15px;
+  color:black;
+}
+.circle{
+width:100px;
+height:100px;
+background: red;
+border-radius: 50px;
+margin:0 auto;
+}
+.parallelogram{
+  width:200px;
+  height:100px;
+  background-color: green;
+  margin:0 auto;
+  transform: skew(20deg);
+  position: relative;
+}
+.parallelogram h2{
+  transform: skew(-20deg) translate(-50% -50%);
+  position: absolute;
+}
+.parallelogram:hover h2{
+  transform:skew(-20deg) translate(-50% -50%);
+   transition:.5s;
+  text-align:center;
+}
+.trapezoid{
+  width:200px;
+  height:0px;
+  border-bottom:75px soild orange;
+  border-left:40px solid transparent;
+  border-right:40px solid transparent;
+  margin:0 auto;
+}
+.triangle{
+  width:0px;
+  height:0px;
+  border-bottom:100px solid pink;
+  border-left:50px solid transparent;
+  border-right:50px solid transparent;
+  margin:0 auto;
+}
